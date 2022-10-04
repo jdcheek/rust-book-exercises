@@ -16,5 +16,4 @@ fn main() {
         println!("The value of y in the inner scope is: {y}"); 
     }
     println!("The value of y is: {x}");
-
 }

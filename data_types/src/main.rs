@@ -31,4 +31,18 @@ fn main() {
     let z: char = 'ℤ'; // with explicit type annotation
 
     // compound types
+    // tuple
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+
+    let five_hundred = x.0;
+
+    let six_point_four = x.1;
+
+    let one = x.2;
+
+    // arrays
+    let a: [i32; 5] = [1, 2, 3, 4, 5]; // type and size written in brackets
+    let first = a[0]; // set variables to array values at index
+    let second = a[1];
+    let a = [3; 5]; // initialize array with 5 elements with value of int 3
 }
